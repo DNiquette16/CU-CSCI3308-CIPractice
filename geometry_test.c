@@ -39,6 +39,7 @@ START_TEST(test_2d_eq)
     b.y = 10.99;
     ck_assert(!coord_2d_eq(&a, &b));
 
+
     a.x = 3.33;
     a.y = 9.99;
     b.x = 2.33;
