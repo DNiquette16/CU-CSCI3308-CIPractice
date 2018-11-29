@@ -13,6 +13,7 @@
 #include <stdlib.h>
 #include <check.h>
 
+
 #include "geometry.h"
 
 /* coord_2d_eq Test */
