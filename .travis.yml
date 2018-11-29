@@ -1,3 +1,5 @@
 language: c
 os: osx
 script: make && make test
+before-install:
+	- sudo-apt get install check
