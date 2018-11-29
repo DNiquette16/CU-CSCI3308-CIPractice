@@ -1,5 +1,5 @@
 language: c
 before-install:
--brew install check
+	-brew install check
 os: osx
 script: make dep && make test && make
