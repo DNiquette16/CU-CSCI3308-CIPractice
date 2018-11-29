@@ -24,7 +24,7 @@ geometry.o: geometry.c geometry.h
 test: geometry_test
 	./geometry_test
 dep:
-	sudo apt-get install check
+	brew install check
 
 clean:
 	$(RM) *.o
